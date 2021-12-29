@@ -26,13 +26,12 @@ SECRET_KEY = 'django-insecure-!!k9j#6)9_bhk2y42ls#ml@*d04gc#526%w=bfyi#qhs9m(^k0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['https://paulstodoapp.herokuapp.com/']
 
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    'django.contrib.admin',APP_NAME.herokuapp.com
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
